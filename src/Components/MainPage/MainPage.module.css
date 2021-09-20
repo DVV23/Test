@@ -1,0 +1,66 @@
+.wrapper {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns:auto auto auto;
+    grid-template-areas:
+    "i n w"
+    ". . l"
+    "d d d";
+    justify-items: start;
+    justify-content: start;
+    padding-top: 50px;   
+    padding-left: 20px; 
+    min-height: 15vh;
+}
+
+.selectedPage {
+    font-weight: bold;
+    color: black;
+}
+.userIMG {
+
+    grid-area: i;
+    justify-items: left;
+}
+.userIMG img {
+    height: 100px;
+    width: 160px;
+    padding-left: 5px;
+}
+
+.userInfo {
+    grid-area: d;
+    padding-left: 5px;
+    
+}
+
+.btnMore {
+    grid-area: b;
+    padding-left: 100px;
+
+}
+.driverNumber {
+    padding-left: 5px;
+    grid-area: n;
+    padding-right: 50px;
+}
+.btnLike {
+    grid-area: l;
+    margin-top: 20px;
+    padding-left: 70px;
+}
+.button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    margin: 0;
+    vertical-align: top;
+    width: 104px;
+}
+
+.closeImage {
+    display: block;
+    height: 50px;  
+    width: 50px;
+}

@@ -1,0 +1,7 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: cornsilk;
+    object-fit: cover;
+}
